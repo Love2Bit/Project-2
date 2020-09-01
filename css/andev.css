@@ -1,0 +1,45 @@
+#content{
+    background:white;
+    width: 70%;
+    float: left;
+}
+
+.isi{
+    padding: 20px;
+}
+
+.sidemargin{
+    padding-right: 150px;
+}
+
+#sidebar{
+    background: #FFF;
+    width: 30%;
+    float: left;
+}
+
+#sidebar{
+    display: inline-block;
+}
+
+#sidebar li{
+    border-bottom: 1px solid black;
+    padding: 2px;
+}
+
+#sidebar li a{
+    text-decoration: none;
+    color: black;
+}
+
+*{
+    font-family: cursive;
+}
+
+#sidebar li a:hover{
+    color: #ca9b52;
+}
+
+.border{
+    border-top: 1px solid #ca9b52;
+}

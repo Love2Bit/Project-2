@@ -1,0 +1,47 @@
+#image{
+    background:white;
+    width:90%;
+}
+.isi{
+    padding: 20px;
+}
+.content{
+    background:white;
+    width:60%;
+    float:left;
+}
+#h3{
+    font-style:impact;
+}
+#h3 p{
+    font-style: italic;
+}
+.isi{
+    padding: 20px;
+}
+.sidemargin{
+    padding-right:120px;
+}
+
+#sidebar{
+    background: #ffffff;
+    width: 35%;
+    float: left;
+}
+#sidebar li a{
+    text-decoration:none;
+    text-transform: uppercase;
+    color:darkgreen;
+}
+
+#sidebar li a:hover{
+    color: darkseagreen;
+}
+.border{
+    border-top:1px solid grey
+}
+h1 h2 p{
+    font-style: italic;
+    text-decoration: none;
+}
+

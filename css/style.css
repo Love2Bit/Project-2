@@ -1,0 +1,168 @@
+body{
+    background: #FFF;
+    margin: 0;
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.logo{
+    float: left;
+    width: 100px;
+    margin-top: 8px;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.menu li{
+    display: inline-block;
+}    
+
+.menu li a{
+    color: black;
+    margin-left: 20px;
+    padding: 15px 0;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu li a:hover{
+    color: #ca9b52;
+}
+
+#featured-post{
+    background-image: url(../image/profesi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+#featured-post .wrapper{
+    width: 500px;
+    color: black;
+}
+
+a.category{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+h2{
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+
+a.button{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    border: 1px solid black;
+    padding: 15px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+#content{
+    background:white;
+    width: 70%;
+    float: left;
+}
+
+#sidebar{
+    background: #FFF;
+    width: 30%;
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.list-article{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.list-article a.category{
+    color: #ca9b52;
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.list-article a.button{
+    border-color: #ca9b52;
+    color: #ca9b52;
+}
+
+.list-article .author{
+    margin-top: 50px;
+}
+
+.list-article .author .image-wrapper{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#mekanik{
+    height: 450px;
+}
+
+#sidebar li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+#sidebar li a:hover{
+    color: #ca9b52;
+}
+
+#sidebar li{
+    border-bottom: 1px solid rgba(172, 169, 169, 0.411);
+    padding: 2px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#sidebar{
+    margin-top: 100px;
+}
+
+* p{
+    font-family: Georgia;
+}

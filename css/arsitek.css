@@ -1,0 +1,52 @@
+.content{
+    background:white;
+    width: 70%;
+    float: left;
+}
+
+.baca{
+    padding: 20px;
+}
+
+.sidepadding{
+    background: #FFF;
+    width: 30%;
+    float: left;
+}
+
+#sidebar{
+    display: inline-block;
+}
+
+.sidepadding li{
+    border-bottom: 1px solid black;
+    padding: 5px;
+    padding-top: 5px;
+}
+
+.sidepadding li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidepadding li a:hover{
+    color: #5e3c07;
+}
+
+*{
+    font-family: Georgia;
+}
+
+.border{
+    border-top: 1px solid #5e3c07;
+}
+
+.sumber li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sumber li a:hover{
+    color: #5e3c07;
+}
+
